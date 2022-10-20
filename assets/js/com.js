@@ -103,4 +103,4 @@ setTimeout(function() {
 }, 20000)
 var today = new Date()
 today.setDate(today.getFullYear() + 1)
-setCookie('returningVisitor', 'yes', today)
+//setCookie('returningVisitor', 'yes', today)

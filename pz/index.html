@@ -471,7 +471,7 @@
         <div class="px-sm-2">
           <br />
           <a
-            href="https://pay.hotmart.com/U82228065L?checkoutMode=10"
+            href="https://pay.hotmart.com/U82228065L"
             class="btn pulse max-w-lg-50 mx-auto call-to-action-link"
           >
             QUERO O PROTOCOLO ZERO BARRIGA
@@ -501,7 +501,7 @@
           const queryString = window.location.search;
 
           buttonLinks.forEach((buttonLink) => {
-            buttonLink.href += queryString;
+            buttonLink.href += queryString + "&checkoutMode=10";
           });
         });
       };
